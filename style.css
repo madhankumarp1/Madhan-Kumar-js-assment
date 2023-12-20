@@ -1,0 +1,100 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 98%;
+    height: 98%;
+}
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}
+.inerpagehead {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: azure;
+}
+.Right_div {
+    width: 100%;
+    height: 100%;
+    background: blueviolet;
+}
+
+.Lift_div {
+    width: 100%;
+    height: 100%;
+    background: #1ba8a8;
+ }
+ form#FeedbackForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 3em;
+}
+button {
+    width: 14em;
+    border: none;
+    height: 1.9em;
+}
+/* .Right_div {
+    width: 100%;
+    height: 100%;
+    background: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+} */
+.product_div {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.amount_div {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.product_add {
+    height: 60%;
+    width: 100%;
+    overflow-y: auto;
+}
+.total_change {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.total_2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.h1t ,.h2t{
+    font-family: system-ui;
+    font-size: medium;
+    font-weight: bolder;
+}
