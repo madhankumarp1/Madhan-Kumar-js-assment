@@ -5,6 +5,7 @@ html{
 body{
     width: 98%;
     height: 98%;
+    background-image: linear-gradient(to left,  #451ad3, #7b67c3 );
 }
 .page {
     width: 100%;
@@ -12,7 +13,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: antiquewhite;
+    /* background:#7b67c3; */
+    background-image: linear-gradient(to left,  #451ad3, #7b67c3 );
+
 }
 .inerpagehead {
     width: 50%;
@@ -20,19 +23,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: azure;
+    /* background: azure; */
 }
 .Right_div {
     width: 100%;
     height: 100%;
-    background: blueviolet;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .Lift_div {
     width: 100%;
     height: 100%;
-    background: #1ba8a8;
- }
+    background: rgb(255,255,255);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
  form#FeedbackForm {
     display: flex;
     justify-content: center;
@@ -40,7 +47,7 @@ body{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    gap: 3em;
+    gap: 2em;
 }
 button {
     width: 14em;
@@ -80,7 +87,7 @@ button {
 }
 .total {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,5 +103,88 @@ button {
 p.h1t ,.h2t{
     font-family: system-ui;
     font-size: medium;
+    font-weight: bolder;
+}
+.hed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+hr.hr_2 {
+    width: 16em;
+}
+
+.af {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+button.remove_btn {
+    width: 6%;
+    background: transparent;
+    color: transparent;
+}
+span.hia {
+    width: 30%;
+}
+
+ul.left {
+    width: 50%;
+    text-align: left;
+}
+
+.af:hover .remove_btn{
+    color: red;
+}
+
+.af:nth-child(odd){
+    background-color: rgba(99, 83, 159, 0.3);
+} 
+hr{
+    /* background-color: black; */
+    border: 1px solid black;
+}
+
+label#invaldide_prodect , #invaldide_Amount{
+    color: red;
+}
+.lin {
+    font-size: 21px;
+    border-left: 1px solid;
+}
+
+.lin {
+    border-left: 2px solid;
+    border-color: black;
+    width: 1%;
+    height: 100%;
+}
+hr.sk {
+    border-left: 1px solid black;
+    height: 100%;
+}
+
+button.submit_btn {
+
+    background-image: linear-gradient(to left,  #451ad3, #7b67c3 );
+    color: white;
+    border-radius: 3px;
+    height: 3em;
+
+}
+input#Amount,#ProductName {
+    width: 100%;
+    height: 50%;
+    border: none;
+    font-size: medium;
+}
+label {
+    font-size: larger;
+    font-weight: bolder;
+}
+p.pr-left,p.am-r {
+    font-size: x-large;
     font-weight: bolder;
 }
