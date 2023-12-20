@@ -184,7 +184,17 @@ label {
     font-size: larger;
     font-weight: bolder;
 }
-p.pr-left,p.am-r {
+p.pr-left, p.am-r {
     font-size: x-large;
     font-weight: bolder;
+    /* width: 50%; */
+}
+/* button.sort_btn {
+    width: 15%;
+    border: none;
+    height: 3em;
+} */
+
+i.fa-solid.fa-caret-up {
+    color: #008cff;
 }
