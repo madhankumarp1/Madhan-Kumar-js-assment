@@ -35,7 +35,7 @@ function transaction(event) {
     let Item_name = document.createElement("ul");
     let spanadd = document.createElement("span");
     spanadd.classList = "hia";
-    let all = document.createElement("div");
+    var all = document.createElement("div");
     all.classList = "af";
     let remove = document.createElement("button");
     remove.classList = "remove_btn";
@@ -59,6 +59,8 @@ function transaction(event) {
 // --------------------- removebutton function
 
     remove.addEventListener("click", function () {
+      // let all = document.querySelector(".af"); 
+        alert(`Do you want to Delete ${all.textContent}`); 
       all.remove();
       totalAmount -= amount;
 
@@ -148,9 +150,7 @@ function sortItems() {
 
   user_Product.value = "";
   user_amount.value = "";
-
-  // document.querySelector(".sort_btn").value.reset();
-}
+  }
   }
 }
 
