@@ -108,7 +108,7 @@ function transaction(event) {
     sort_button.addEventListener("click", sortItems);
 
 function sortItems() {
-  // console.log(true);
+  console.log(true);
   var Arr = Array.from(add_Product.children);
 
   for (var i = 1; i < Arr.length; i++) {
@@ -149,7 +149,7 @@ function sortItems() {
   user_Product.value = "";
   user_amount.value = "";
 
-
+  // document.querySelector(".sort_btn").value.reset();
 }
   }
 }
